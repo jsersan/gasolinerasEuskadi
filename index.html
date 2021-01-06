@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mapa de Euskadi</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        #mapa {
+            height: 100%;
+            width: 100%;
+        }
+        
+        #legend {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            padding: 10px;
+            margin: 10px;
+            border: 3px solid #000;
+        }
+        
+        #legend h3 {
+            margin-top: 0;
+        }
+        
+        #legend img {
+            vertical-align: middle;
+        }
+        
+        #legend h3 {
+            margin-top: 0;
+        }
+        
+        #legend img {
+            vertical-align: middle;
+        }
+    </style>
+
+    </style>
+
+</head>
+
+<body>
+    <div id="mapa"></div>
+    <div id="legend">
+
+        <h3>Leyenda</h3>
+
+    </div>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=apiKEY"></script>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
+
+
+<!-- Añadido  <div onmousedown="elemento(event);" id="legend"></div> que hace que al dar click en los elementos se ejecute la funcion elemento, pasandole como parametro el fichero correspondiente. -->
